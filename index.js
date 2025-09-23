@@ -1,6 +1,6 @@
 // 指定されたJSファイルをパースし、ASTを出力する
 // Example:
-//   $ node index.js 01/a.js
+//   $ node index.js examples/01.js
 
 import * as parser from "@babel/parser"
 import * as fs from "fs"
