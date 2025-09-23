@@ -10,7 +10,7 @@ async function main() {
     const source = fs.readFileSync(filename).toString();
     const ast = parser.parse(source);
 
-    console.log(JSON.stringify(ast, null, 4));
+    console.log(JSON.stringify(ast, null, 2));
 }
 
 main();
